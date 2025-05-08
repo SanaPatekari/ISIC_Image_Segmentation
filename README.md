@@ -1,5 +1,3 @@
----
-
 # ISIC 2024 Lesion Segmentation
 
 This repository contains a deep learning-based approach to the ISIC 2024 Challenge, specifically focused on the task of skin lesion segmentation from dermoscopic images. The project is designed to support the early detection of skin cancer by developing an automated system that can accurately segment lesions from skin images using a convolutional neural network.
@@ -47,10 +45,3 @@ Some possible improvements for future iterations of the project include:
 - Incorporating a pre-trained encoder (for example, ResNet or EfficientNet) as part of a U-Net variant.
 - Expanding the dataset for better generalization.
 - Deploying the model as a web application using Streamlit or Flask for interactive use.
-
-## License
-
-This project is intended for educational and research purposes. If you use the ISIC dataset, please ensure you credit the International Skin Imaging Collaboration accordingly.
-
----
-
