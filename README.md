@@ -1,5 +1,3 @@
-Here is a detailed, symbol-free version of your `README.md` suitable for your GitHub repository:
-
 ---
 
 # ISIC 2024 Lesion Segmentation
@@ -26,18 +24,10 @@ The dataset used in this project is provided by the International Skin Imaging C
 
 You can download the dataset by registering on the ISIC Challenge website at:
 
-https://challenge.isic-archive.com/
+https://challenge.isic-archive.com/data/#2018
 
 After downloading, the images and their corresponding masks should be organized into a folder structure suitable for training and validation.
 
-## Folder Structure
-
-This repository is organized as follows:
-
-- The file `ISIC-Segmenation.ipynb` contains the full code implementation, including data preprocessing, model training, and evaluation.
-- A `data` folder should be created by the user to store the downloaded images and masks.
-- A `models` folder may be created to save trained model weights and checkpoints.
-- The `README.md` file provides documentation and guidance for using the repository.
 
 ## Model Architecture
 
