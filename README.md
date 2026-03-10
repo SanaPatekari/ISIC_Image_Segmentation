@@ -12,7 +12,7 @@ Automated image segmentation methods can assist medical professionals by highlig
 
 This project applies deep learning techniques to perform **semantic segmentation of skin lesions** using the **U-Net architecture**, which is widely used for biomedical image segmentation tasks.
 
----
+
 
 ## Dataset
 
@@ -29,7 +29,7 @@ https://challenge.isic-archive.com/data/#2018
 
 After downloading, the images and their corresponding masks should be organized into an appropriate folder structure for model training and validation.
 
----
+
 
 ## Approach
 
@@ -53,7 +53,7 @@ The architecture consists of:
 
 This design allows the model to learn high-resolution spatial features that are essential for accurate lesion boundary detection.
 
----
+
 
 ## Results
 
@@ -66,15 +66,16 @@ Model performance was evaluated using commonly used segmentation metrics:
 
 Visual comparisons between predicted masks and ground truth masks demonstrate the model’s ability to accurately segment lesion regions.
 
----
+
 
 ## Example Output
 
 Example predicted segmentation masks highlighting lesion areas in dermoscopic images.
 
-*(Add prediction images here to visualize the segmentation results.)*
+<img width="1197" height="763" alt="image" src="https://github.com/user-attachments/assets/fe92f187-5a44-48be-b2d0-6e798a5c7ee8" />
 
----
+
+
 
 ## Tech Stack
 
@@ -83,7 +84,7 @@ Example predicted segmentation masks highlighting lesion areas in dermoscopic im
 - NumPy  
 - OpenCV  
 
----
+
 
 ## Future Work
 
